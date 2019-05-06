@@ -1,0 +1,15 @@
+Ruifeng Chen
+1473869
+
+For exercise2, just open exercise2 folder and then run ex2_test.m
+For exercise3, just open exercise3 folder and then run ex3a.m , ex3b.m ,ex3c1.m seperately.
+
+Non-programming question:
+	ex3-a(3x3 case):
+		our program does better than simply implementing "\" operator since our solution will satisfiy more rays given
+	in the graph. Also, we reduced the rows so that the running time is less. 
+	
+
+	ex3-c1:
+		The word is SCIENCE.
+		

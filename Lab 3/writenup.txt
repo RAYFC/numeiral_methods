@@ -1,0 +1,9 @@
+Ruifeng Chen 1473869
+ex1,ex2,ex3 and ex3 are finished
+comments on ex5:
+	We have opitions of polynomial interpolation or piecewise
+interpolation in EX5. Also, for obj_pca, we can interpolate it or not.For my
+polynomial setting,  piecewise interpolation may perform better, however,
+there may be an unexpected error for the last few frames. When I delete 
+the last few frames, it's better than polynomial interpolation   
+(I've commented it out in my e5 code ).

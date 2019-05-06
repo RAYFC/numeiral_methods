@@ -1,0 +1,13 @@
+The results are close enough to be useful in the optimization
+since the differences of the two Jacobian matrices (see e1.m)
+are close enough when a very small alpha value (e.g. 1.0e+4) is used 
+Thus we could use the Jacobian matrix from finite-difference approximation
+
+Finite-difference approximation is prefered over analytic derivative
+in the case when analytic derivative is hard to compute.
+Also, in some cases, simply computing the analytic derivative has an error
+since the values used in computing are rounded
+
+The comparison between Newton and Broyden:
+They are basically the same, except that Broyden's Method occasionally
+catches singular matrix exception, which will move awkwardly.
